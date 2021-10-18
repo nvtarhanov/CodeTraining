@@ -50,8 +50,8 @@ func solutionOddOccurences(A []int) int {
 
 	for i := 0; i < len(A); i += 2 {
 
-		if i == len(A) {
-			return A[len(A)]
+		if i == (len(A) - 1) {
+			return A[(len(A))-1]
 		}
 
 		if A[i] != A[i+1] {
