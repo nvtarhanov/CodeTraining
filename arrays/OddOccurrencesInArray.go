@@ -28,9 +28,36 @@
 // each element of array A is an integer within the range [1..1,000,000,000];
 // all but one of the values in A occur an even number of times.
 
+// 11 22 33 4
+
 package main
 
-func Solution(A []int) int {
+import "sort"
 
-	return 1
+func solutionOddOccurences(A []int) int {
+
+	var vithoutPair int
+
+	if len(A) == 0 {
+		return 0
+	}
+
+	if len(A) == 1 {
+		return A[0]
+	}
+
+	sort.Ints(A)
+
+	for i := 0; i < len(A); i += 2 {
+
+		if i == len(A) {
+			return A[len(A)]
+		}
+
+		if A[i] != A[i+1] {
+			return A[i]
+		}
+	}
+
+	return vithoutPair
 }
