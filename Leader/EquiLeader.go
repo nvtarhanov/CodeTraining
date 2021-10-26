@@ -53,7 +53,7 @@ func Solution(A []int) int {
 	// 1. Find Lider of a slice if exists
 	// else return 0
 	// 2. Calculate prefix-sums
-	// 3. Count equi leader
+	// 3. Calculate equi leader
 
 	equiLeaderCount := 0
 	leaderCount := 0
