@@ -53,7 +53,7 @@ func Solution(A []int) int {
 		}
 
 	}
-	// if only negative nubers exists
+	// if only negative numbers exists
 	if maxValue < 0 {
 		maxSlice = maxValue
 	}
