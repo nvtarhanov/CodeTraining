@@ -25,7 +25,7 @@ package main
 // X, Y and D are integers within the range [1..1,000,000,000];
 // X ≤ Y.
 
-func Solution(X int, Y int, D int) int {
+func FrogJumpSolution(X int, Y int, D int) int {
 
 	if X == Y {
 		return 0

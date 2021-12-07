@@ -1,3 +1,5 @@
+package main
+
 // A non-empty array A consisting of N integers is given. The consecutive elements of array A represent consecutive cars on a road.
 
 // Array A contains only 0s and/or 1s:
@@ -37,12 +39,10 @@
 // N is an integer within the range [1..100,000];
 // each element of array A is an integer that can have one of the following values: 0, 1.
 
-package main
-
 // 0    1    0     1     1
 // >    <     >    <     <
 
-func Solution(A []int) int {
+func PassingCarsSolution(A []int) int {
 
 	foundedZeroes := 0
 	foundedOnes := 0

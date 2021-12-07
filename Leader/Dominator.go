@@ -25,11 +25,11 @@
 // N is an integer within the range [0..100,000];
 // each element of array A is an integer within the range [−2,147,483,648..2,147,483,647].
 
-package solution
+package main
 
 import "sort"
 
-func Solution(A []int) int {
+func DominatorSolution(A []int) int {
 
 	//1. Sort slice
 	//2. Dominator would be in a middle of a slice if exists

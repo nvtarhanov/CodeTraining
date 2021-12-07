@@ -7,7 +7,7 @@ package main
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Solution(A []int, B []int) int {
+func FishStackSolution(A []int, B []int) int {
 
 	if len(A) == 1 {
 		return 1

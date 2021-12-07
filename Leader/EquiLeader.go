@@ -48,7 +48,7 @@ import "sort"
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Solution(A []int) int {
+func EquiLeaderSolution(A []int) int {
 
 	// 1. Find Lider of a slice if exists
 	// else return 0

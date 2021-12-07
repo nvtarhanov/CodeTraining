@@ -20,7 +20,7 @@ package main
 // N is an integer within the range [0..200,000];
 // string S consists only of the following characters: "(", "{", "[", "]", "}" and/or ")".
 
-func Solution(S string) int {
+func BracketsSolution(S string) int {
 
 	if S == "" {
 		return 1

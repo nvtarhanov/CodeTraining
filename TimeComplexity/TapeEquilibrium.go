@@ -1,3 +1,5 @@
+package main
+
 // A non-empty array A consisting of N integers is given. Array A represents numbers on a tape.
 
 // Any integer P, such that 0 < P < N, splits this tape into two non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
@@ -39,9 +41,7 @@
 // N is an integer within the range [2..100,000];
 // each element of array A is an integer within the range [−1,000..1,000].
 
-package main
-
-func Solution(A []int) int {
+func TapeEquilibriumSolution(A []int) int {
 
 	//Dont do that in real project
 	minSum := 99999999999

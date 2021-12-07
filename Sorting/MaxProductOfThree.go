@@ -40,7 +40,7 @@ import "sort"
 // N is an integer within the range [3..100,000];
 // each element of array A is an integer within the range [−1,000..1,000].
 
-func Solution(A []int) int {
+func MaxProductSolution(A []int) int {
 
 	// First case: first numbers are negative, therefore,
 	//the answer would be A[0] * A[1] * A[n - 1]

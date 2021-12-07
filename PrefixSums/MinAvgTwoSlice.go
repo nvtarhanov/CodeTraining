@@ -40,7 +40,7 @@ package main
 // N is an integer within the range [2..100,000];
 // each element of array A is an integer within the range [−10,000..10,000].
 
-func Solution(A []int) int {
+func MinAvgSolution(A []int) int {
 
 	if len(A) == 2 {
 		return 0

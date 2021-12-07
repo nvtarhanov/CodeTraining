@@ -43,7 +43,7 @@ package main
 // N and X are integers within the range [1..100,000];
 // each element of array A is an integer within the range [1..X].
 
-func Solution(X int, A []int) int {
+func FrogRiverSolution(X int, A []int) int {
 
 	b := make([]int, X)
 	count := X

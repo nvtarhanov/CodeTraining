@@ -1,3 +1,5 @@
+package main
+
 // An integer N is given, representing the area of some rectangle.
 
 // The area of a rectangle whose sides are of length A and B is A * B, and the perimeter is 2 * (A + B).
@@ -22,11 +24,9 @@
 
 // N is an integer within the range [1..1,000,000,000].
 
-package solution
-
 import "math"
 
-func Solution(N int) int {
+func MinPerimeterSolution(N int) int {
 
 	perimeter := 9999999999
 	temp := 0

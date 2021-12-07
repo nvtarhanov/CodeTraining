@@ -21,7 +21,7 @@ import "sort"
 
 //It is just MVP.I Spended 20 mins on this task, needs to refactor
 // Maybe should try to use Map, but it is required 2 loops
-func Solution(A []int) int {
+func MissingIntegerSolution(A []int) int {
 
 	max := 0
 	lenA := len(A)

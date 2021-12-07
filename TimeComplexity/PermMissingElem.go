@@ -1,3 +1,5 @@
+package main
+
 // An array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
 
 // Your goal is to find that missing element.
@@ -22,12 +24,10 @@
 // the elements of A are all distinct;
 // each element of array A is an integer within the range [1..(N + 1)].
 
-package main
-
 // you can also use imports, for example:
 import "sort"
 
-func Solution(A []int) int {
+func PermMissingElementSolution(A []int) int {
 
 	var b int
 

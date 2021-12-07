@@ -44,7 +44,7 @@
 // N is an integer within the range [3..100,000];
 // each element of array A is an integer within the range [−10,000..10,000].
 
-package solution
+package main
 
 // you can also use imports, for example:
 //import "fmt"
@@ -53,7 +53,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Solution(A []int) int {
+func MaxSumSolution(A []int) int {
 
 	n := len(A)
 

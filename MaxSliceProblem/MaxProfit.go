@@ -39,7 +39,7 @@ package main
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Solution(A []int) int {
+func MaxProfitSolution(A []int) int {
 
 	n := len(A)
 	maxProfit := 0
