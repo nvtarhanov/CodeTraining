@@ -1,8 +1,7 @@
 package main
 
 import (
-	binarysearchthree "Algoritms/DataStructures/BinarySearchThree"
-	"fmt"
+	graph "Algoritms/DataStructures/Graph"
 )
 
 //Graph structure
@@ -56,7 +55,7 @@ func main() {
 	// }
 
 	//Linked list example
-	// myList := linkedlsit.LinkedList{}
+	//myList := linkedlsit.LinkedList{}
 	// node1 := &linkedlsit.Node{Data: 48}
 	// node2 := &linkedlsit.Node{Data: 18}
 	// node3 := &linkedlsit.Node{Data: 16}
@@ -76,7 +75,17 @@ func main() {
 
 	//Binary search three
 
-	tree := &binarysearchthree.Node{Key: 100}
-	fmt.Println(tree)
+	//tree := &binarysearchthree.Node{Key: 100}
+	// fmt.Println(tree)
 
+	//Graph
+
+	test := graph.Graph{}
+
+	for i := 1; i < 5; i++ {
+		test.AddVertex(i)
+	}
+	test.AddEdge(1, 2)
+
+	test.Print()
 }
